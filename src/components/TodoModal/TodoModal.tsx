@@ -57,9 +57,7 @@ export const TodoModal: React.FC<TodoModalProps> = ({
                 {user ? (
                   <a href={`mailto:${user.email}`}>{user.name}</a>
                 ) : (
-                  <span className="has-text-grey-light">
-                    Невідомий користувач
-                  </span>
+                  <span className="has-text-grey-light">Unknown user</span>
                 )}
               </p>
             </>
